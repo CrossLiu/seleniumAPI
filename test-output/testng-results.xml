@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25507" started-at="2018-12-07T07:05:30Z" finished-at="2018-12-07T07:05:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25507" started-at="2018-12-07T07:05:30Z" finished-at="2018-12-07T07:05:56Z">
+      <class name="com.seleniumAPI.API">
+        <test-method status="PASS" signature="openURLandQuit()[pri:0, instance:com.seleniumAPI.API@1e88b3c]" name="openURLandQuit" duration-ms="25490" started-at="2018-12-07T15:05:30Z" finished-at="2018-12-07T15:05:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURLandQuit -->
+      </class> <!-- com.seleniumAPI.API -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
