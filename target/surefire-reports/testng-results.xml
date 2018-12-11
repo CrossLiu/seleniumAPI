@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="15195" started-at="2018-12-07T08:03:08Z" finished-at="2018-12-07T08:03:23Z">
+  <suite name="Suite" duration-ms="25493" started-at="2018-12-10T09:04:45Z" finished-at="2018-12-10T09:05:10Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="15195" started-at="2018-12-07T08:03:08Z" finished-at="2018-12-07T08:03:23Z">
+    <test name="Test" duration-ms="25493" started-at="2018-12-10T09:04:45Z" finished-at="2018-12-10T09:05:10Z">
       <class name="demo1.SelectorDemo">
-        <test-method status="PASS" signature="name1()[pri:0, instance:demo1.SelectorDemo@6b71769e]" name="name1" duration-ms="15181" started-at="2018-12-07T16:03:08Z" finished-at="2018-12-07T16:03:23Z">
+        <test-method status="PASS" signature="name1()[pri:0, instance:demo1.SelectorDemo@58ceff1]" name="name1" duration-ms="15308" started-at="2018-12-10T17:04:45Z" finished-at="2018-12-10T17:05:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- name1 -->
       </class> <!-- demo1.SelectorDemo -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      <class name="demo1.Demo2">
+        <test-method status="PASS" signature="name2()[pri:0, instance:demo1.Demo2@2133c8f8]" name="name2" duration-ms="10166" started-at="2018-12-10T17:05:00Z" finished-at="2018-12-10T17:05:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name2 -->
+      </class> <!-- demo1.Demo2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

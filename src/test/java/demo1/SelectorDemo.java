@@ -32,7 +32,12 @@ public class SelectorDemo {
 		string=	webElement2.getText();
 		System.out.println(string);
 		}
-		
+		driver.quit();
+	}
+	
+	@Test
+	public void name2() {
+		System.out.println("test2");
 	}
 
 }

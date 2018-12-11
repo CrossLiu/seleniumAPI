@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25507" started-at="2018-12-07T07:05:30Z" finished-at="2018-12-07T07:05:56Z">
+  <suite name="Default suite" duration-ms="13290" started-at="2018-12-11T06:36:05Z" finished-at="2018-12-11T06:36:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25507" started-at="2018-12-07T07:05:30Z" finished-at="2018-12-07T07:05:56Z">
-      <class name="com.seleniumAPI.API">
-        <test-method status="PASS" signature="openURLandQuit()[pri:0, instance:com.seleniumAPI.API@1e88b3c]" name="openURLandQuit" duration-ms="25490" started-at="2018-12-07T15:05:30Z" finished-at="2018-12-07T15:05:56Z">
+    <test name="Default test" duration-ms="13290" started-at="2018-12-11T06:36:05Z" finished-at="2018-12-11T06:36:18Z">
+      <class name="com.seleniumAPI.getIEDriver">
+        <test-method status="PASS" signature="startIE()[pri:0, instance:com.seleniumAPI.getIEDriver@91161c7]" name="startIE" is-config="true" duration-ms="5652" started-at="2018-12-11T14:36:05Z" finished-at="2018-12-11T14:36:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openURLandQuit -->
-      </class> <!-- com.seleniumAPI.API -->
+        </test-method> <!-- startIE -->
+        <test-method status="PASS" signature="ss()[pri:0, instance:com.seleniumAPI.getIEDriver@91161c7]" name="ss" duration-ms="6741" started-at="2018-12-11T14:36:10Z" finished-at="2018-12-11T14:36:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ss -->
+        <test-method status="PASS" signature="releaseIE()[pri:0, instance:com.seleniumAPI.getIEDriver@91161c7]" name="releaseIE" is-config="true" duration-ms="872" started-at="2018-12-11T14:36:17Z" finished-at="2018-12-11T14:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseIE -->
+      </class> <!-- com.seleniumAPI.getIEDriver -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
