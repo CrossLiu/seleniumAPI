@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mySuite">
+  <test verbose="5" thread-count="5" name="myTest">
+    
+    <parameter name="p1" value="FF"></parameter>
+    <parameter name="p2" value="FF"></parameter>
+    <parameter name="p3" value="FF"></parameter>
+     
+     <groups>
+     <!--定义三个模块，和Test_group.java类中代码对应 -->
+      <define name="mygroup1"></define>
+      <define name="mygroup2"></define>
+      <define name="mygroup3"></define>
+      
+      <!--重新定义一个模块，包括 mygroup1和mygroup2-->
+      <define name="mygroup_sum1">
+          <include name="mygroup1"></include>
+          <include name="mygroup2"></include>
+      </define>
+      
+        <!--重新定义另外一个模块，包括 mygroup2和mygroup3-->
+      <define name="mygroup_sum2">
+          <include name="mygroup2"></include>
+          <include name="mygroup3"></include>
+      </define>
+      
+      <!--只运行mygroup_sum1-->
+      <run>
+          <include name="mygroup_sum1"></include>
+      </run>
+    </groups>
+    
+     <classes>
+      <class name="groups_TestNG.Test_group"/> <!-- 定义要运行的类 Test_group, class标签必须放在groups下面-->
+    </classes>
+    
+  </test> <!-- Test -->
+ 
+
+</suite> <!-- Suite -->

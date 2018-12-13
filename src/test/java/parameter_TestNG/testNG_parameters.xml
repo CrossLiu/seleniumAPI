@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mySuite">
+  <!-- 参数必须和类中参数保持一致,参数value值为-->  
+ <parameter name="TestData1" value="\tool1\test1.properties"></parameter> 
+ <parameter name="TestData2" value="\tool2\test2.properties"></parameter> 
+  <test verbose="5" thread-count="5" name="myTest" preserve-order="true">    
+     <classes>
+      <class name="parameter_TestNG.Test1"> <!-- 定义要运行的类parameter_TestNG.Test1 -->
+       <methods>
+           <include name="test"></include> <!-- 包括test方法 -->
+       </methods>
+      </class>
+    </classes>
+    
+  </test> <!-- Test -->
+ 
+
+</suite> <!-- Suite -->
