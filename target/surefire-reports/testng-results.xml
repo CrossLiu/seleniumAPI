@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25493" started-at="2018-12-10T09:04:45Z" finished-at="2018-12-10T09:05:10Z">
+  <suite name="Suite" duration-ms="9521" started-at="2018-12-17T10:56:10Z" finished-at="2018-12-17T10:56:19Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="25493" started-at="2018-12-10T09:04:45Z" finished-at="2018-12-10T09:05:10Z">
+    <test name="Test" duration-ms="9521" started-at="2018-12-17T10:56:10Z" finished-at="2018-12-17T10:56:19Z">
       <class name="demo1.SelectorDemo">
-        <test-method status="PASS" signature="name1()[pri:0, instance:demo1.SelectorDemo@58ceff1]" name="name1" duration-ms="15308" started-at="2018-12-10T17:04:45Z" finished-at="2018-12-10T17:05:00Z">
+        <test-method status="PASS" signature="name2()[pri:0, instance:demo1.SelectorDemo@256216b3]" name="name2" duration-ms="7" started-at="2018-12-17T18:56:10Z" finished-at="2018-12-17T18:56:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- name1 -->
+        </test-method> <!-- name2 -->
       </class> <!-- demo1.SelectorDemo -->
       <class name="demo1.Demo2">
-        <test-method status="PASS" signature="name2()[pri:0, instance:demo1.Demo2@2133c8f8]" name="name2" duration-ms="10166" started-at="2018-12-10T17:05:00Z" finished-at="2018-12-10T17:05:10Z">
+        <test-method status="PASS" signature="name2()[pri:0, instance:demo1.Demo2@16c0663d]" name="name2" duration-ms="9498" started-at="2018-12-17T18:56:10Z" finished-at="2018-12-17T18:56:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- name2 -->

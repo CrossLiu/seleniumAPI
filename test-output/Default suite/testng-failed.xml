@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="parameter_TestNG.Test1">
+      <class name="sqlDataDrive.MysqlDataProvider">
         <methods>
-          <include name="test"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="testSearch" invocation-numbers="2"/>
         </methods>
-      </class> <!-- parameter_TestNG.Test1 -->
+      </class> <!-- sqlDataDrive.MysqlDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

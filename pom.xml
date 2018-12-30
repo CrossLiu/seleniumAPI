@@ -2,18 +2,39 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.cross</groupId>
   <artifactId>seleniumFramework</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>seleniumAPIv1</version>
   <dependencies>
   	<dependency>
   		<groupId>org.seleniumhq.selenium</groupId>
   		<artifactId>selenium-java</artifactId>
-  		<version>3.4.0</version>
+  		<version>3.14.0</version>
   	</dependency>
   	<dependency>
   		<groupId>org.testng</groupId>
   		<artifactId>testng</artifactId>
   		<version>6.11</version>
   	</dependency>
+  	
+  	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+  	<!-- Java API To Access Microsoft Format Files  -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.17</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.17</version>
+</dependency>
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.13</version>
+    
+</dependency>
+  	
   </dependencies>
   
   <build>
