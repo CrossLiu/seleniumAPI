@@ -26,10 +26,7 @@ public class Utilities {
 	public Utilities(WebDriver driver) {
 		Utilities.driver=driver;
 	}
-		
-
-	    
-  
+	
 
 	//判断元素是否存在
 	public boolean isElementPresent(final By by,long timeout) {
@@ -52,7 +49,7 @@ public class Utilities {
 		return flag;
 	}
 		//判断元素是否存在，另外一种方式
-		public  boolean isElementPresence(final By by,long timeout) {
+		public  boolean isElementDisplayed(final By by,long timeout) {
 			boolean flag=true;
 			WebDriverWait wait=new WebDriverWait(driver, timeout);
 			try {
